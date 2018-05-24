@@ -6,7 +6,8 @@ const urlsToCache = [
   '/~rkaldmaa/eesrakendused/kkp/kkp-game.html',
   '/~rkaldmaa/eesrakendused/kkp/',
   '/~rkaldmaa/eesrakendused/kkp/kkp-game.css',
-  '~rkaldmaa/eesrakendused/kkp/package-lock.json'
+  '/~rkaldmaa/eesrakendused/kkp/serviceWorker.js',
+  '/~rkaldmaa/eesrakendused/kkp/package-lock.json'
 ]
 
 self.addEventListener('install', function (event) {
